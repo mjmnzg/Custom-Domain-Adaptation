@@ -13,6 +13,11 @@ Imprementation of Custom Domain Adaptation (CDA) method for cross-subject EEG-ba
 	https://github.com/pbashivan/EEGLearn
 
 # Run code
-	
-	CUDA_VISIBLE_DEVICES=0 python3 run_main.py --model resrecnet --dataset pbashivan --output outputs/resrecnet
-	
+
+Pre-training
+
+	CUDA_VISIBLE_DEVICES=0 python3 run_main.py --model recresnet --dir_output model/recresnet --dir_resume outputs/resume --seed 223
+
+Training of Custom Domain Adaptation (CDA)
+
+	CUDA_VISIBLE_DEVICES=0 python3 run_main.py --model cda --dir_output model/cda --dir_pretrain model/recresnet --dir_resume outputs/resume --seed 223
