@@ -1,5 +1,5 @@
 # Custom-Domain-Adaptation
-Imprementation of Custom Domain Adaptation (CDA) method for cross-subject EEG-based cognitive load recognition. CDA is based on Adaptive Batch Normalization (AdaBN) and Maximimum Mean Discrepancy (MMD) to reduce the divergences between source and target distributions, respectively. Our proposal was applied on a public dataset for cross-subject cognitive load recognition. Experimental results showed that CDA obtained an accuracy of 98.2±2.67%.
+Imprementation of Custom Domain Adaptation (CDA) method for cross-subject EEG-based cognitive load recognition. CDA is based on Adaptive Batch Normalization (AdaBN) and Maximimum Mean Discrepancy (MMD) to reduce the divergences between source and target distributions, respectively. Our proposal was applied on a public dataset for cross-subject cognitive load recognition. Experimental results showed that CDA obtained an accuracy of 98.2±2.67% using Leave One-Subject-Out Cross-Validation.
 
 # Dependencies
 	
