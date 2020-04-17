@@ -1,7 +1,5 @@
 # Custom-Domain-Adaptation
-Custom Domain Adaptation: a new method for cross-subject, EEG-based cognitive load recognition
-
-Imprementation of Custom Domain Adaptation method.
+Imprementation of Custom Domain Adaptation (CDA) method for cross-subject EEG-based cognitive load recognition. CDA was designed
 
 # Dependencies
 	- Python (>= 3.6)
