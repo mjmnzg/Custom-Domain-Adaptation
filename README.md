@@ -3,12 +3,13 @@ Imprementation of Custom Domain Adaptation (CDA) method for cross-subject EEG-ba
 
 # Cite
 
-	@ARTICLE{Jimenez2020,  
-	author={M. {Jimnez-Guarneros} and P. {Gomez-Gil}},
-	journal={IEEE Signal Processing Letters},
-	title={Custom Domain Adaptation: a new method for cross-subject, EEG-based cognitive load recognition},
+	@ARTICLE{9076296,
+	author={Jiménez-Guarneros, Magdiel and Gómez-Gil, Pilar},
+	journal={IEEE Signal Processing Letters}, 
+	title={Custom Domain Adaptation: A New Method for Cross-Subject, EEG-Based Cognitive Load Recognition}, 
 	year={2020},
-	pages={1-1}
+	volume={27},
+	pages={750-754}
 	}
 
 # Dependencies
