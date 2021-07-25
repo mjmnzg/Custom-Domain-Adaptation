@@ -15,7 +15,7 @@ Imprementation of Custom Domain Adaptation (CDA) method for cross-subject EEG-ba
 # Dependencies
 	
 	Python (>= 3.6)
-	Tensorflow (>= 1.9)
+	Tensorflow (1.9)
 	NumPy (>= 1.8.2)
 	SciPy (>= 0.13.3)
 
